@@ -8,7 +8,7 @@ from pydub import AudioSegment
 token = open("../libre_token", "r").readline()
 id = "1136776729441095720"
 poll_active = False
-f = open("./gangsta_clean.txt", "r")
+f = open("./parable.txt", "r")
 lines = f.readlines() # lines to say
 f.close()
 voice_client = None
