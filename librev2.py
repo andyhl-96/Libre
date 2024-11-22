@@ -122,7 +122,7 @@ async def play(ctx, link):
 @bot.event
 async def on_ready():
     bot.get_guild
-    activities = ["with balls", "stupid games", "with walter white", "GTA"]
+    activities = ["with balls", "stupid games", "with the homies", "the stanley parable"]
     rand = random.randint(0, len(activities) - 1)
     activity = discord.Activity(name = activities[rand], 
             type = discord.ActivityType.playing,
